@@ -21,8 +21,11 @@ More documentation is provided in the form of docstrings throughout the code.
 
 ### Installation
 Option 1:
-1. Create virtual environment
-2. Install gdal
+1. Install dependencies (gdal, libspatialindex)
+```
+apt install libgdal-dev libspatialindex-dev
+```
+2. Create virtual environment
 3. Change to root directory
 4. `pip install -r requirements.txt`
 5. `pip install -e .`
