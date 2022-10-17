@@ -68,8 +68,8 @@ tensorboard==2.2.0
 tensorboard-plugin-wit==1.7.0
 termcolor==1.1.0
 timm==0.1.20
-torch==1.6.0+cu101
-torchvision==0.7.0+cu101
+torch==1.6.0
+torchvision==0.7.0
 tqdm==4.48.2
 typing-extensions==3.7.4.3
 urllib3==1.25.10
